@@ -1,0 +1,188 @@
+.body /* Sets the size of the background image to fit the page */
+.title {text-align:center} /* Centers out the banner */
+.Home {border:2px solid black; background-color:#333333; color:white; opacity:0.95; height:69px; width:20%; text-align:center; float:left} /* Div for the homepage link */
+.BuyersPage {border:2px solid black; background-color:#333333; color:white; opacity:0.95; height:69px; width:40%; margin-left:20.2%; text-align:center} /* Div for the Melee page link */
+.UAHomepage {border:2px solid black; background-color:#333333; color:white; opacity:0.95; height:69px; width:39%; margin-left:60.4%; margin-top:-73px; text-align:center;} /* Div for the Smash 4 link */
+.left {border:1px solid black; background-color:grey; color:black; opacity:0.95; height:340px; width:16.95%; margin-right:74%} /* Div for "Characters" and "Top Players" links */
+.middle {border:2px solid black; background-color:lightgray; color:black; height:800px; width:65%; margin-left:17%; margin-top:-342px} /* Div for main content of the page */
+.right {color:black; margin-left:84.3%; margin-top:-700px} /* Div for timer and email button */
+
+p.indent{ 
+padding-left: 1.0em 
+} /* for the login box "sign in" line */
+
+#lower {
+    background: #ecf2f5;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+}
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+	font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #acd6ef; /*IE fallback*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+    background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+    border-radius: 30px;
+    border: 1px solid #66add6;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+p a {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+}
+p a:hover {
+    color: #555;
+}
+input {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    outline: none;
+}
+input[type=text],
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+	border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+label {
+    color: #555;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#container {
+position: fixed;
+width: 340px;
+height: 280px;
+top: 50%;
+left: 50%;
+margin-top: -140px;
+margin-left: -170px;
+background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+body {   
+ width: 100%;   
+height: 100%;   
+font-family: "Helvetica Neue", Helvetica, sans-serif;   
+color: #444;   
+-webkit-font-smoothing: antialiased;    background: #f0f0f0;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #001433;
+  background-color: #4d94ff;
+  border: 2px solid #001433;
+  border-radius: 8px;
+  box-shadow: 0px 6px 3px rgba(0.64,0.64,0.64,0.64), 2px 6px 3px rgba(0.64,0.64,0.64,0.64);
+  transition-duration: 0.1s;
+}
+
+.button1 {
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #4d0000;
+  background-color: #e60000;
+  border: 2px solid #4d0000;
+  border-radius: 16px;
+  box-shadow: 0px 5px 2px rgba(0.64,0.64,0.64,0.64), 2px 5px 2px rgba(0.64,0.64,0.64,0.64);
+  transition-duration: 0.1s;
+}
+
+.button:hover {
+	background-color: #0073e6;
+}
+
+.button:active {
+  background-color: #0059b3;
+  text-align: center;
+  box-shadow: 0px 3px 2px #333333;
+  transform: translateY(4px);
+}
+
+.button1:hover {
+	background-color: #cc0000;
+}
+
+.button1:active {
+  background-color: #990000;
+  text-align: center;
+  box-shadow: 0px 3px 2px #333333;
+  transform: translateY(4px);
+}
+
+h3 {
+	font-family:Arial;
+}
+
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+}
+
+
+li.leftLink:hover {
+	background-color:red;
+	color:black;
+}
